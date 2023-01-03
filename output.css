@@ -513,6 +513,30 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-\[-92px\] {
+  left: -92px;
+}
+
+.top-\[210px\] {
+  top: 210px;
+}
+
+.left-\[-75px\] {
+  left: -75px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .flex {
   display: flex;
 }
@@ -521,20 +545,28 @@ video {
   height: 508px;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-\[923px\] {
   width: 923px;
+}
+
+.w-\[480px\] {
+  width: 480px;
+}
+
+.w-\[350px\] {
+  width: 350px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -568,17 +600,17 @@ video {
   --tw-gradient-to: hsl(240, 73%, 65%);
 }
 
-.pr-\[90px\] {
-  padding-right: 90px;
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .font-kumbh {
   font-family: Kumbh Sans, sans-serif;
 }
 
-.drop-shadow-xl {
-  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .drop-shadow-2xl {
@@ -596,4 +628,21 @@ video {
   --s-48: 3rem;
   --s-64: 4rem;
   --s-80: 5rem;
+}
+
+.desktop {
+  overflow: hidden;
+}
+
+.question-icon {
+  display: flex;
+  width: 350px;
+}
+
+.question {
+  padding-bottom: var(--s-24);
+}
+
+.answer {
+  display: none;
 }
