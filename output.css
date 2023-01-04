@@ -561,8 +561,8 @@ video {
   width: 480px;
 }
 
-.w-\[350px\] {
-  width: 350px;
+.w-\[443px\] {
+  width: 443px;
 }
 
 .flex-col {
@@ -608,9 +608,9 @@ video {
   font-family: Kumbh Sans, sans-serif;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .drop-shadow-2xl {
@@ -630,17 +630,20 @@ video {
   --s-80: 5rem;
 }
 
-.desktop {
-  overflow: hidden;
-}
-
-.question-icon {
+.question-amswer {
   display: flex;
-  width: 350px;
+  justify-content: space-between;
+  height: var(--s-32);
 }
 
 .question {
   padding-bottom: var(--s-24);
+}
+
+.arrow {
+  float: right;
+  width: var(--s-16);
+  height: var(--s-16);
 }
 
 .answer {

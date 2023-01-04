@@ -15,18 +15,21 @@
   --s-80: 5rem;
 }
 
-.desktop {
-  overflow: hidden;
+.question-amswer {
+  display: flex;
+  justify-content: space-between;
+  height: var(--s-32);
 }
 
-.question-icon {
-  display: flex;
-  width: 350px;
-}
 .question {
   padding-bottom: var(--s-24);
 }
 
+.arrow {
+  float: right;
+  width: var(--s-16);
+  height: var(--s-16);
+}
 .answer {
   display: none;
 }
