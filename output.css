@@ -642,6 +642,7 @@ video {
 
 .arrow {
   float: right;
+  margin-right: 100px;
   width: var(--s-16);
   height: var(--s-16);
 }
