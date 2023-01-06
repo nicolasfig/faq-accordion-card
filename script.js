@@ -1,17 +1,20 @@
-const question = document.querySelector(".question");
-const questionText = document.querySelector(".question > p");
-const arrow = document.querySelector(".arrow");
-const answer = document.querySelector(".answer");
+const questionBlock = document.querySelector(".question");
+const questionTexts = document.querySelectorAll(".question > p");
+const arrows = document.querySelectorAll(".arrow");
+const answer = document.querySelectorAll(".answer");
 
-const toggleDisplay = () => {
-  question.style.borderBottom = "none";
-  answer.classList.toggle("answer-active");
-};
+const toggleDisplay = (question, arrow) => {};
 
-questionText.addEventListener("click", () => {
-  toggleDisplay();
-});
+questionTexts.forEach((question) =>
+  question.addEventListener("click", () => {
+    questionBlock.style.borderBottom = "none";
+    answer.classList.toggle("answer-active");
+  })
+);
 
-arrow.addEventListener("click", () => {
-  toggleDisplay();
-});
+/* arrows.forEach((arrow) =>
+  arrow.addEventListener("click", () => {
+    
+  })
+);
+ */

@@ -52,4 +52,6 @@
 }
 .answer-active {
   display: block;
+  color: hsl(240, 6%, 50%);
+  font-size: 12px;
 }
