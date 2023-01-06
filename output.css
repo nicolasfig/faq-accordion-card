@@ -600,10 +600,6 @@ video {
   --tw-gradient-to: hsl(240, 73%, 65%);
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -661,6 +657,12 @@ video {
 
 .question > p {
   color: hsl(240, 6%, 50%);
+  font-size: 12px;
+}
+
+.question > p:hover {
+  cursor: pointer;
+  color: hsl(14, 88%, 65%);
 }
 
 .arrow {
@@ -668,6 +670,14 @@ video {
   height: var(--s-8);
 }
 
+.arrow:hover {
+  cursor: pointer;
+}
+
 .answer {
   display: none;
+}
+
+.answer-active {
+  display: block;
 }

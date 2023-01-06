@@ -32,11 +32,24 @@
 }
 .question > p {
   color: hsl(240, 6%, 50%);
+  font-size: 12px;
+}
+
+.question > p:hover {
+  cursor: pointer;
+  color: hsl(14, 88%, 65%);
 }
 .arrow {
   width: var(--s-8);
   height: var(--s-8);
 }
+
+.arrow:hover {
+  cursor: pointer;
+}
 .answer {
   display: none;
+}
+.answer-active {
+  display: block;
 }
