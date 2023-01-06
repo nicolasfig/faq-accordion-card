@@ -604,6 +604,10 @@ video {
   padding-top: 2.5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .font-kumbh {
   font-family: Kumbh Sans, sans-serif;
 }
@@ -611,6 +615,15 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.font-w-bold {
+  font-weight: 700;
+}
+
+.text-very-dark-desaturated-blue {
+  --tw-text-opacity: 1;
+  color: hsl(238 29% 16% / var(--tw-text-opacity));
 }
 
 .drop-shadow-2xl {
@@ -631,15 +644,23 @@ video {
 }
 
 .question-amswer {
-  padding-bottom: var(--s-32);
   width: 350px;
-  border-bottom: 1px solid hsl(0, 1%, 66%);
 }
 
 .question {
   display: flex;
+  height: var(--s-64);
+  width: 350px;
+  box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
+  padding-top: var(--s-8);
+  padding-bottom: var(--s-16);
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.question > p {
+  color: hsl(240, 6%, 50%);
 }
 
 .arrow {
