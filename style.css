@@ -47,6 +47,7 @@
 .arrow:hover {
   cursor: pointer;
 }
+
 .answer {
   display: none;
 }
@@ -54,4 +55,5 @@
   display: block;
   color: hsl(240, 6%, 50%);
   font-size: 12px;
+  max-width: fit-content;
 }

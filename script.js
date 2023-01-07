@@ -1,20 +1,9 @@
-const questionBlock = document.querySelector(".question");
-const questionTexts = document.querySelectorAll(".question > p");
-const arrows = document.querySelectorAll(".arrow");
-const answer = document.querySelectorAll(".answer");
+const questionBlocks = document.querySelectorAll(".question-answer");
 
-const toggleDisplay = (question, arrow) => {};
+for (i = 0; i < questionBlocks.length; i++) {
+  const answer = questionBlocks[i].querySelector(".answer");
 
-questionTexts.forEach((question) =>
-  question.addEventListener("click", () => {
-    questionBlock.style.borderBottom = "none";
+  questionBlocks[i].addEventListener("click", () => {
     answer.classList.toggle("answer-active");
-  })
-);
-
-/* arrows.forEach((arrow) =>
-  arrow.addEventListener("click", () => {
-    
-  })
-);
- */
+  });
+}
