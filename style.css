@@ -15,14 +15,9 @@
   --s-80: 5rem;
 }
 
-.question-amswer {
-  width: 350px;
-}
-
 .question {
   display: flex;
   height: var(--s-64);
-  width: 350px;
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
