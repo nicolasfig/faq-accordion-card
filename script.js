@@ -4,7 +4,8 @@ let lastSelected = null;
 const toggleAccordion = (answer) => {
   let questionText = answer.previousElementSibling.querySelector("p");
   let arrow = answer.previousElementSibling.querySelector(".arrow");
-
+  let question = answer.previousElementSibling;
+  question.classList.toggle("border-b");
   questionText.classList.toggle("question-active");
   arrow.classList.toggle("arrow-active");
   answer.classList.toggle("answer-active");
