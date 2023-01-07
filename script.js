@@ -2,6 +2,11 @@ const questionBlocks = document.querySelectorAll(".question-answer");
 let lastSelected = null;
 
 const toggleAccordion = (answer) => {
+  let questionText = answer.previousElementSibling.querySelector("p");
+  let arrow = answer.previousElementSibling.querySelector(".arrow");
+
+  questionText.classList.toggle("question-active");
+  arrow.classList.toggle("arrow-active");
   answer.classList.toggle("answer-active");
 };
 

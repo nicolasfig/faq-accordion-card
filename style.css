@@ -30,7 +30,7 @@
   padding-bottom: var(--s-16);
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
-.question > p {
+.question-inactive {
   color: hsl(240, 6%, 50%);
   font-size: 12px;
 }
@@ -39,9 +39,19 @@
   cursor: pointer;
   color: hsl(14, 88%, 65%);
 }
+
+.question-active {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
 .arrow {
   width: var(--s-8);
   height: var(--s-8);
+}
+
+.arrow-active {
+  transform: scaleY(-1);
 }
 
 .arrow:hover {
@@ -55,5 +65,5 @@
   display: block;
   color: hsl(240, 6%, 50%);
   font-size: 12px;
-  max-width: fit-content;
+  max-width: 330px;
 }

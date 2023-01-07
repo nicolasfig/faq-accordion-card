@@ -561,8 +561,8 @@ video {
   width: 480px;
 }
 
-.w-\[443px\] {
-  width: 443px;
+.w-\[350px\] {
+  width: 350px;
 }
 
 .flex-col {
@@ -655,7 +655,7 @@ video {
   border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
-.question > p {
+.question-inactive {
   color: hsl(240, 6%, 50%);
   font-size: 12px;
 }
@@ -665,9 +665,18 @@ video {
   color: hsl(14, 88%, 65%);
 }
 
+.question-active {
+  color: hsl(238, 29%, 16%);
+  font-weight: 700;
+}
+
 .arrow {
   width: var(--s-8);
   height: var(--s-8);
+}
+
+.arrow-active {
+  transform: scaleY(-1);
 }
 
 .arrow:hover {
@@ -682,4 +691,5 @@ video {
   display: block;
   color: hsl(240, 6%, 50%);
   font-size: 12px;
+  max-width: 330px;
 }
