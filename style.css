@@ -39,5 +39,16 @@
   color: hsl(240, 6%, 50%);
   font-size: 12px;
   max-width: 330px;
+  padding-bottom: var(--s-8);
   border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.image-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .image-desktop {
+    display: none;
+  }
 }
